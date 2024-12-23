@@ -58,7 +58,7 @@ c) OrderDetails - Tracks order details, including status, amounts, and ratings.
 
 ### Technologies Used ###
 
-- Python Libraries: Pandas, Matplotlib, OpenPyXL
+- Python Libraries: Pandas, Matplotlib.
 
 - Data Handling: Data cleaning, transformation, and merging.
 
