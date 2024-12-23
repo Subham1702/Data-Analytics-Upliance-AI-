@@ -1,5 +1,4 @@
-# Data-Analytics-Upliance-AI-
-## Data Analysis Report - User Behavior, Cooking Preferences, and Order Trends ##
+## Data Analysis Report - User Behavior, Cooking Preferences, and Order Trends ##.
 
 ### Project Overview ###
 
