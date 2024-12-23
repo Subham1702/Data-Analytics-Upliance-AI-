@@ -27,25 +27,25 @@ c) OrderDetails - Tracks order details, including status, amounts, and ratings.
 
 ### Key Findings ###
 
-#### Popular Dishes ####:
+#### Popular Dishes:
 
 'Spaghetti' and 'Caesar Salad' are the most frequently ordered dishes.
 
-#### Order Timing ####:
+#### Order Timing:
 
 Peak order times occur during lunch and dinner hours.
 
-#### Demographic Insights ####:
+#### Demographic Insights:
 
 The majority of users are aged 25–40, forming the primary customer base.
 
-#### Spending Patterns ####:
+#### Spending Patterns:
 
 Spending varies across users, with high-value customers contributing significantly.
 
-#### Correlation Analysis ####:
+#### Correlation Analysis:
 
-Positive correlation between session ratings and order ratings suggests a link between cooking session experiences and purchase satisfaction.
+A positive correlation between session and order ratings suggests a link between cooking session experiences and purchase satisfaction.
 
 ### Technologies Used ###
 
