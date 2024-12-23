@@ -28,6 +28,15 @@ c) OrderDetails - Tracks order details, including status, amounts, and ratings.
 ### Key Findings ###
 
 - #### Popular Dishes:
+   ``` Python
+chart1 = BarChart()
+data = Reference(ws, min_col=12, min_row=2, max_row=17, max_col=12)
+categories = Reference(ws, min_col=12, min_row=2, max_row=17)
+chart1.add_data(data, titles_from_data=True)
+chart1.set_categories(categories)
+chart1.title = "Top Ordered Dishes"
+ws.add_chart(chart1, "Z2")
+```
 
 'Spaghetti' and 'Caesar Salad' are the most frequently ordered dishes.
 
