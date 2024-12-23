@@ -78,9 +78,9 @@ c) OrderDetails - Tracks order details, including status, amounts, and ratings.
 
 ### Future Improvements ###
 
-Expand analysis to include time-series trends for seasonal demand.
+- Expand analysis to include time-series trends for seasonal demand.
 
-Incorporate machine learning models to predict user preferences.
+- Incorporate machine learning models to predict user preferences.
 
-Automate reporting dashboards for real-time insights.
+- Automate reporting dashboards for real-time insights.
 
