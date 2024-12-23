@@ -28,33 +28,34 @@ c) OrderDetails - Tracks order details, including status, amounts, and ratings.
 ### Key Findings ###
 
 - #### Popular Dishes:
-   ``` Python
-chart1 = BarChart()
-data = Reference(ws, min_col=12, min_row=2, max_row=17, max_col=12)
-categories = Reference(ws, min_col=12, min_row=2, max_row=17)
-chart1.add_data(data, titles_from_data=True)
-chart1.set_categories(categories)
-chart1.title = "Top Ordered Dishes"
-ws.add_chart(chart1, "Z2")
-```
+![alt text](https://github.com/Subham1702/Data-Analytics-Upliance-AI-/blob/main/Popular%20dishes.png)
+   - 'Spaghetti' and 'Caesar Salad' account for 25% and 18.75% of total orders, respectively.
 
-'Spaghetti' and 'Caesar Salad' are the most frequently ordered dishes.
+   - Combined, these two dishes make up 43.75% of all orders, highlighting user preferences.
 
 - #### Order Timing:
+![alt text](https://github.com/Subham1702/Data-Analytics-Upliance-AI-/blob/main/Order%20Timing.png)
+   - 50% of orders are placed during evening hours (dinner), while 31.25% occur during daytime (lunch).
 
-Peak order times occur during lunch and dinner hours.
+   - Morning orders account for only 18.75%, indicating lower breakfast engagement.
 
 - #### Demographic Insights:
+![alt text](https://github.com/Subham1702/Data-Analytics-Upliance-AI-/blob/main/Demography%20(Age).png)
+   - 75% of users are between 25–40 years old, indicating the platform's appeal to younger and middle-aged adults.
 
-The majority of users are aged 25–40, forming the primary customer base.
+   - Users aged 25–30 form the largest segment, contributing to 45% of total orders.
 
 - #### Spending Patterns:
+![alt text](https://github.com/Subham1702/Data-Analytics-Upliance-AI-/blob/main/Spending.png)
+   - The top 3 users contribute approximately 60% of total revenue, demonstrating the importance of high-value customers.
 
-Spending varies across users, with high-value customers contributing significantly.
+   The average spending per user is $25.50, with high-spenders averaging $35.00.
 
 - #### Correlation Analysis:
+![alt text](https://github.com/Subham1702/Data-Analytics-Upliance-AI-/blob/main/Correlation.png)
+   - Session ratings and order ratings show a positive correlation of 0.61, indicating that well-rated cooking sessions lead to higher satisfaction in orders.
 
-A positive correlation between session and order ratings suggests a link between cooking session experiences and purchase satisfaction.
+   - Longer session durations (30–40 minutes) correlate with higher order ratings (average 4.7).
 
 ### Technologies Used ###
 
